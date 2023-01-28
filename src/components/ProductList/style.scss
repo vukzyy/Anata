@@ -1,0 +1,123 @@
+.productList{
+  background: #F4F3F1;
+  padding: 100px 40px;
+
+  &__title{
+    text-align: center;
+  }
+  &__item{
+    height: 575px;
+    width: 650px;
+    margin-top: 60px;
+    background: #ffffff;
+
+    &-bg{
+      background: url("https://www.bhg.com/thmb/H2lg9rQKk5QAYcXCh1bhQVbreiQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/white-kitchen-floating-shelves-232ac9fb-fad090ab1f73478589de35a4e9b3b1e9.jpg") center/cover no-repeat;
+      height: 410px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding: 20px;
+      column-gap: 15px;
+    }
+
+    &-button{
+      display: flex;
+      align-items: center;
+      padding: 10px 16px;
+      width: 163px;
+      height: 44px;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      border: none;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+    &-heart{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      width: 44px;
+      height: 44px;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+    &-title{
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 29px;
+      margin-top: 20px;
+    }
+    &-desBox{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 25px;
+      margin-top: 16px;
+    }
+    &-des{
+      display: flex;
+      align-items: center;
+    }
+    &-text{
+      margin-right: 8px;
+    }
+    &-lowBox{
+      padding: 0 20px;
+    }
+    &-priceList{
+      display: flex;
+      column-gap: 20px;
+      align-items: center;
+    }
+    &-priceBox{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+      align-items: center;
+    }
+    &-calculate{
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      width: 198px;
+      height: 42px;
+      background: #B17955;
+      border-radius: 8px;
+      color: white;
+      border: none;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    &-price{
+      font-size: 27px;
+      font-weight: 1000;
+    }
+    &-sale{
+      font-size: 18px;
+      text-decoration-line: line-through;
+      color: #878B90;
+    }
+
+  }
+  &__button{
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 40px;
+    width: 282px;
+    height: 48px;
+    background: #B17955;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}

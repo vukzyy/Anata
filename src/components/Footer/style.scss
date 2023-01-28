@@ -1,0 +1,104 @@
+.footer{
+  background: #2E2E2E;
+  padding: 60px 40px;
+
+
+
+  &__firstBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 60px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  &__speciesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-gap: 30px;
+  }
+
+  &__speciesBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-gap: 15px;
+  }
+
+  &__speciesTitle{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  &__species{
+    font-size: 16px;
+    color: white;
+  }
+
+
+
+  &__secondBox{
+    padding: 40px 0 0;
+  }
+
+  &__iconBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+  }
+
+  &__contactBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 60px;
+
+    &-item{
+      text-align: right;
+      color: white;
+    }
+  }
+
+  &__number{
+    color: white;
+    font-size: 17px;
+
+    &-span{
+      color: #878B90;
+    }
+  }
+
+  &__linkBox{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    align-items: center;
+  }
+
+  &__link{
+    color: white;
+    font-size: 17px;
+  }
+
+  &__menuContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  &__des{
+    color: #878B90;
+    margin-top: 60px;
+    font-size: 13px;
+  }
+}

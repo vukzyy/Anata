@@ -1,0 +1,65 @@
+.home{
+  background: #B17955;
+  height: 580px;
+  &__box{
+    display: flex;
+  }
+  &__left-bg{
+    width: 55%;
+    background: url("../../assets/images/Home/image 1.png") center/cover no-repeat;
+  }
+
+  &__right-content{
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+
+  &__title{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  &__sale{
+    font-weight: 1000;
+    font-size: 130px;
+    line-height: 158px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__subtitle{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+
+  &__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 40px;
+    width: 163px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+}
